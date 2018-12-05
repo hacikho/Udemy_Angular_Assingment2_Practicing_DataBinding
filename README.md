@@ -1,2 +1,0 @@
-# Udemy_Angular_Assingment2_Practicing_DataBinding
-Created with CodeSandbox
