@@ -7,4 +7,12 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "CodeSandbox";
+  username = "";
+  constructor() {
+    this.isUserNameEmpty = true;
+  }
+
+  onUpdateUserName(event: Event) {
+    this.username = (<HTMLInputElement>event.target).value;
+  }
 }
